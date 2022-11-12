@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="bmi">BMI</string>
+    <string name="btn_cale">計算</string>
+    <string name="weight">體重KG：</string>
+    <string name="height">身高CM：</string>
+</resources>
