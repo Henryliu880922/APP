@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button bmi = findViewById(R.id.bmi);
+        Button calculator = findViewById(R.id.calculator);
 
         bmi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,8 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-    public void onBackPress(){
-        moveTaskToBack(true);
+        calculator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this,Calculator.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.app.BMI" />
+        <activity android:name="com.example.app.Calculator" />
 
         <meta-data
                 android:name="android.app.lib_name"
