@@ -25,4 +25,17 @@
     <string name="btn_div">/</string>
     <string name="btn_dot">.</string>
     <string name="btn_equal">=</string>
+    <!--SQL-->
+    <string name="btn_sql">資料庫</string>
+    <string name="btn_Create">新增</string>
+    <string name="btn_Modify">修改</string>
+    <string name="tv_name">姓名：</string>
+    <string name="tv_tel">電話：</string>
+    <string name="tv_hobby">興趣：</string>
+    <string name="tv_other">其他：</string>
+    <string name="btn_Clear">清空顯示</string>
+    <string name="name_hint">輸入姓名</string>
+    <string name="tel_hint">輸入電話</string>
+    <string name="hobby_hint">輸入興趣</string>
+    <string name="other_hint">輸入其他相關</string>
 </resources>

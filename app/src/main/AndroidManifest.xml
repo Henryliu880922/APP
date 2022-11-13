@@ -23,6 +23,7 @@
         </activity>
         <activity android:name="com.example.app.BMI" />
         <activity android:name="com.example.app.Calculator" />
+        <activity android:name="com.example.app.DataBase" />
 
         <meta-data
                 android:name="android.app.lib_name"

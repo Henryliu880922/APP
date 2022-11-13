@@ -14,7 +14,7 @@ public class BMI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bmi);
-
+        setTitle("BMI Calculator");
         EditText et_weight = findViewById(R.id.et_weight);
         EditText et_height = findViewById(R.id.et_height);
         Button btn_cale = findViewById(R.id.btn_cale);
